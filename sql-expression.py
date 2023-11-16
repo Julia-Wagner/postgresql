@@ -1,6 +1,8 @@
 from sqlalchemy import (create_engine, Table, Column, Float, ForeignKey, Integer, String, MetaData)
 
 # executing the instructions from our localhost "chinook" db
+# with username, password and host
+# https://docs.sqlalchemy.org/en/20/core/engines.html
 db = create_engine("postgresql://postgres:postgresql@localhost:5432/chinook")
 
 # instead of meta = MetaData(db)
@@ -50,6 +52,7 @@ with db.connect() as connection:
     # Query 6 - select tracks from queen
     select_query = track_table.select().where(track_table.c.Composer == "Queen")
 
+    # execute the query and get the results
     results = connection.execute(select_query)
     for result in results:
         print(result)
