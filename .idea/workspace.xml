@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="407da7c9-8a57-491a-9af4-6f2e80ee90c5" name="Changes" comment="make sqlalchemy queries">
-      <change afterPath="$PROJECT_DIR$/sql-orm.py" afterDir="false" />
+    <list default="true" id="407da7c9-8a57-491a-9af4-6f2e80ee90c5" name="Changes" comment="make sqlalchemy orm queries">
+      <change afterPath="$PROJECT_DIR$/sql-crud.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql-expression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1700076806194" duration="628000" />
       <workItem from="1700077510675" duration="1005000" />
       <workItem from="1700128819510" duration="620000" />
-      <workItem from="1700129460322" duration="3787000" />
+      <workItem from="1700129460322" duration="5867000" />
     </task>
     <task id="LOCAL-00001" summary="link postgres to python">
       <option name="closed" value="true" />
@@ -118,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700161210444</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="make sqlalchemy orm queries">
+      <option name="closed" value="true" />
+      <created>1700162324832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700162324832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +135,7 @@
     <MESSAGE value="link postgres to python" />
     <MESSAGE value="set up sqlalchemy connection" />
     <MESSAGE value="make sqlalchemy queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="make sqlalchemy queries" />
+    <MESSAGE value="make sqlalchemy orm queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="make sqlalchemy orm queries" />
   </component>
 </project>
